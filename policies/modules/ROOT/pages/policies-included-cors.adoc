@@ -113,21 +113,21 @@ In Local Mode, you apply the CORS policy to your API via declarative configurati
           accessControlMaxAge: 30
           allowedMethods:
             - isAllowed: true
-            methodName: POST
+              methodName: POST
             - isAllowed: true
-            methodName: PUT
+              methodName: PUT
             - isAllowed: true
-            methodName: GET
+              methodName: GET
             - isAllowed: false
-            methodName: CONNECT
+              methodName: CONNECT
             - isAllowed: false
-            methodName: DELETE
+              methodName: DELETE
             - isAllowed: false
-            methodName: OPTIONS
+              methodName: OPTIONS
             - isAllowed: false
-            methodName: PATCH
+              methodName: PATCH
             - isAllowed: false
-            methodName: TRACE
+              methodName: TRACE
           headers:
             - x-allow-origin
             - x-yet-another-valid-header
